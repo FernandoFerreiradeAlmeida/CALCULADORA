@@ -15,3 +15,9 @@ function calculate() {
    const result = eval(expression);
    document.getElementyById('result').value = result;
    expression = '';
+ }
+}
+
+function clear() {
+ expression = '' ;
+ document
